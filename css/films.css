@@ -1,0 +1,48 @@
+body{
+    font-family:新細明體;
+}
+.row{
+    width:90%;
+    display:flex;
+}
+.col-2{
+    width:45%;
+    margin:2.5%;
+}
+.col-4{
+    width:20%;
+    display:flex;
+}
+article.col-2 p{
+    line-height:1.5em;
+    margin:2em auto;
+}
+article p a:link, aside section a:link{
+    color:rgb(111,190,64);
+
+}
+article p a:hover, aside section a:hover{
+    color:rgb(0,136,43);
+}
+article p a:visited, aside section a:visited{
+    color:rgb(111,154,178);
+}
+aside section a img:hover{
+    opacity:0.5;
+}
+em{
+    color:rgb(84,135,163);
+    font-size:2em;
+    font-weight:bold;
+}
+footer img{
+    float:left;
+    margin:1.5em auto;
+}
+#moreInfo{
+    text-align:right;
+    text-decoration:none;
+}
+.fa fa-arrow-up{
+    text-align:right;
+}
