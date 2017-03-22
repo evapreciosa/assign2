@@ -19,7 +19,6 @@ article.col-2 p{
 }
 article p a:link, aside section a:link{
     color:rgb(111,190,64);
-
 }
 article p a:hover, aside section a:hover{
     color:rgb(0,136,43);
@@ -44,5 +43,6 @@ footer img{
     text-decoration:none;
 }
 .fa fa-arrow-up{
-    text-align:right;
+    position:relative;
+    right:10%;
 }
