@@ -3,34 +3,37 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>reg.html</title>
+  <title>報名表單</title>
+  <link rel="stylesheet" type="text/css" href="css/reg.css">
 </head>
-<body>  
-  <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="post">
-    <h2>報名表單</h2>
-    <label for="inpName">姓名</label>
-    <input type="text" required id="inpName" name="entry.1339495092"><br>
-    <label for="inpCollege">學院</label>
-    <select id="inpCollege" required name="entry.1944781450">
-      <option value="" disabled selected>請選擇</option>
-      <option>文學院</option>
-      <option>社會科學學院</option>
-      <option>商學院</option>
-      <option>傳播學院</option>
-      <option>外國語文學院</option>
-      <option>法學院</option>
-      <option>理學院</option>
-      <option>國際事務學院</option>
-      <option>教育學院</option>
-    </select><br>
-    <label for="inpPhoneNumber">手機</label>
-    <input type="tel" required id="inpPhoneNumber" pattern="[0-9]{10}" name="entry.795504394"><br>
-    <label for="inpEmail">Email</label>
-    <input type="email" required id="inpEmail" name="entry.560282373"><br>
-    <label for="inpBirthday">生日</label>
-    <input type="date" id="inpBirthday" name="entry.324774019"><br>
-    <input type="hidden" id="inpSchoolNumber" name="entry.189820201" value="104405022"><br>
-    <input type="submit" value="註冊">
-  </form>
+<body>
+    <div>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLScM4B6u7nOkNQqUOlSBn7fKXm5cjuno14nyCKRlA4XyjSY9Qg/formResponse" method="post">
+          <h2>報名表單</h2>
+          <label for="inpName"></label>
+          <input type="text" required id="inpName" placeholder="姓名" name="entry.1339495092"><br>
+          <label for="inpCollege"></label>
+          <select id="inpCollege" required name="entry.1944781450">
+            <option value="" disabled selected>請選擇</option>
+            <option>文學院</option>
+            <option>社會科學學院</option>
+            <option>商學院</option>
+            <option>傳播學院</option>
+            <option>外國語文學院</option>
+            <option>法學院</option>
+            <option>理學院</option>
+            <option>國際事務學院</option>
+            <option>教育學院</option>
+          </select><br>
+          <label for="inpPhoneNumber"></label>
+          <input type="tel" required id="inpPhoneNumber" placeholder="手機" pattern="[0-9]{10}" name="entry.795504394"><br>
+          <label for="inpEmail"></label>
+          <input type="email" required id="inpEmail" placeholder="信箱" name="entry.560282373"><br>
+          <label for="inpBirthday"></label>
+          <input type="date" id="inpBirthday" name="entry.324774019"><br>
+          <input type="hidden" id="inpSchoolNumber" name="entry.189820201" value="104405022"><br>
+          <input type="submit" value="註冊" id="submit">
+        </form>
+    </div>
 </body>
 </html>
