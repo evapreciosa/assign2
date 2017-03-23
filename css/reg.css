@@ -11,8 +11,19 @@ div{
     width:100%;
     height:100%;
     position:absolute;
-    left:50%;
-    top:50%;
-    margin-top:-50%;
-    margin-left:-50%;
+    margin:20% auto;
+}
+input, select{
+    width:30%;
+    height:2.4em;
+    margin:0em auto 1em;
+}
+input:valid, select:valid{
+    background-color:#9de2d1;
+}
+#submit{
+    background-color:#32906e;
+    color:white;
+    width:30%;
+    height:2.4em;  
 }
