@@ -17,8 +17,9 @@ body{
     width:20%;
     display:float;
 }
-article h1 img{
-  max-width:600px;
+.clearfix {
+  overflow: auto;
+  zoom: 1;
 }
 nav{
     display:inline-block;
@@ -29,11 +30,11 @@ article.col-2 p{
     line-height:1.5em;
     margin:2em auto;
 }
-article p a:visited, aside section a:visited{
-    color:rgb(111,154,178);
-}
 article p a:link, aside section a:link{
     color:rgb(111,190,64);
+}
+article p a:visited, aside section a:visited{
+    color:rgb(111,154,178);
 }
 article p a:hover, aside section a:hover{
     color:rgb(0,136,43);
