@@ -2,67 +2,64 @@ body{
     font-family:新細明體;
 }
 .row{
-    width:90%;
     display:flex;
-}
-.col-2{
-    width:45%;
-    margin:2.5%;
+    margin:0 20px;
 }
 .row-2{
-    width:45%;
-    display:flex;
+    width:50%;
+    margin: 10px;
 }
-.col-4{
-    width:20%;
+.col-2{
+    width:50%;
+    padding:0 2%;
     display:float;
 }
-.clearfix {
-  overflow: auto;
-  zoom: 1;
+.col-4{
+    float:left;
+    padding:0 5px;
 }
 nav{
-    display:inline-block;
-    width:100%;
     text-align:right;
 }
 article.col-2 p{
     line-height:1.5em;
     margin:2em auto;
 }
-article p a:link, aside section a:link{
-    color:rgb(111,190,64);
+a{
+    color:blue;
 }
-article p a:visited, aside section a:visited{
-    color:rgb(111,154,178);
+a:visited{
+    color:red;
 }
-article p a:hover, aside section a:hover{
-    color:rgb(0,136,43);
+a:hover{
+    color:green;
 }
 aside section a img:hover{
     opacity:0.5;
+}
+.mark{
+    float:left;
 }
 em{
     color:rgb(84,135,163);
     font-size:2em;
     font-weight:bold;
 }
-.mark{
-    float:left;
-    margin:1em auto;    
-}
-.text-link{
-    text-align:right;
+footer{
+    display:flex;
 }
 footer img{
     float:left;
     margin:1.5em auto;
 }
+#address{
+    float:left;
+    width:50%;
+}
 #more-info{
-    text-align:right;
-    text-decoration:none;
+    float:right;
+    width:50%;
 }
 .fa fa-arrow-up{
-    width:100%;
     text-align:right;
 }
